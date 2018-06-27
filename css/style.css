@@ -39,6 +39,13 @@ a:hover {
 #home-section .my-title {
   color: #4EB1BA;
 }
+#work-section .card {
+  opacity: 0;
+}
 #work-section .card-body{
   background-color: #222930;
+}
+#test {
+  height: 400rem;
+  background: black;
 }
