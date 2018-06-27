@@ -1,0 +1,44 @@
+body {
+  background: #222930;
+  color: #E9E9E9;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  border-bottom: #4EB1BA 3px solid;
+  opacity: 0.9;
+}
+a:hover {
+  color: #4EB1BA !important; 
+}
+#astronaut {
+  height: 3rem;
+}
+
+#home-section {
+  background: no-repeat url(/images/nonMac.jpeg);
+  background-position:top center;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+}
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7)
+}
+
+#home-section .home-inner {
+  margin-top: 13rem;
+}
+#home-section .my-title {
+  color: #4EB1BA;
+}
+#work-section .card-body{
+  background-color: #222930;
+}
