@@ -73,6 +73,11 @@ a:hover {
   color: #4EB1BA;
 }
 
+/* FOOTER STYLING */
+#footer {
+  background: #E9E9E9;
+  color: #4EB1BA;
+}
 
 /* ICONS STYLING */
 .fab, .fas {
