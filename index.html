@@ -35,7 +35,7 @@
             <a data-scroll href="#work-head-section" class="nav-link mx-2">Work</a>
           </li>
           <li class="nav-item">
-            <a data-scroll href="#create-head-section" class="nav-link mx-2">About</a>
+            <a data-scroll href="#about-head-section" class="nav-link mx-2">About</a>
           </li>
           <li class="nav-item">
             <a data-scroll href="#share-head-section" class="nav-link mx-2">Contact</a>
@@ -53,7 +53,7 @@
             Luis Lopez
             <br>
             <br>
-            <span class='my-title'>Web Developer</span>
+            <span class='colored-title'>Web Developer</span>
           </h1>
         </div>
       </div>
@@ -61,17 +61,16 @@
   </header>
 
   <!-- WORK SECTION -->
-  <section id="work-head-section">
+  <section id="work-head-section" class="mt-1">
     <div class="container">
-      <div class="row">
-        <div class="col text-center py-5">
-          <h1 class="display-4">Work</h1>
+      <div class="row pt-5">
+        <div class="col text-center ">
+          <h1 class="display-4">
+            <span class='colored-title'>Work</span>
+          </h1>
           <p class="lead">These are projects I have created since learning web development. You can check out my Github to view all the source
-            code. Some of the projects will have a direct link or a heroku link so you can test them.
+            code. Some of the projects will have a direct link, heroku link, or a website link so you can test them.
           </p>
-          <a data-scroll href="https://github.com/spartanhero93" target="__blank" class="btn btn-outline-secondary text-capitalize ">
-            Github Profile
-          </a>
         </div>
       </div>
     </div>
@@ -80,29 +79,33 @@
   <section id="work-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/bacon.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">Bacon Ipsum</h5>
               <p class="card-text">React app that consumes the Bacon Ipsum API. Lets you receive the payload in HTML JSON or regular text format.</p>
-              <a href="https://bacon-text-ipsum.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
-              <a href="https://github.com/spartanhero93/React-Text-Generator" target="__blank" class="btn btn-outline-light">Github link</a>
+              <div class="container d-flex">
+                <a href="https://bacon-text-ipsum.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
+                <a href="https://github.com/spartanhero93/React-Text-Generator" target="__blank" class="btn btn-outline-light">Github link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/pixabay.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">PixaBay App</h5>
               <p class="card-text">Using the power of React you can search the PixaBay API and decide how many pictures you want, in real-time!</p>
-              <a href="https://pixabay-app-react.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
-              <a href="https://github.com/spartanhero93/pixabay-react-app" target="__blank" class="btn btn-outline-light">Github link</a>
+              <div class="container d-flex">
+                <a href="https://pixabay-app-react.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
+                <a href="https://github.com/spartanhero93/pixabay-react-app" target="__blank" class="btn btn-outline-light">Github link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/photowall.jpg" alt="Card image cap">
             <div class="card-body">
@@ -110,65 +113,70 @@
               <p class="card-text">Using Firebase users can upload images and even comment on them! Using the power of React, React-Router, and
                 Redux.
               </p>
-              <a href="#" target="__blank" class="btn btn-outline-light">Heroku link</a>
+              <div class="container d-flex">
+                <a href="https://photo-wall-app.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
+                <a href="https://github.com/spartanhero93/React-Photowall" target="__blank" class="btn btn-outline-light">Github link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="card card-test">
-            <img class="card-img-top" src="./work_images/quotemachine.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title text-center">Quote Machine App</h5>
-              <p class="card-text">One of my first apps that uses Node for the backend to run an express server and serve quotes to the client
-                on the push of a click.</p>
-              <a href="#" target="__blank" class="btn btn-outline-light">Heroku link</a>
-            </div>
-          </div>
-        </div>
+
       </div>
 
-      <div class="row second-row mt-5">
-        <div class="col-lg-3">
+      <div class="row second-row">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/og-portfolio.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center ">First Portfolio</h5>
-              <p class="card-text">Static, responsive, newbie portfolio. Made in my early days of web development, using flex box for layout,
-                and some simple css. No transitions!</p>
-              <a href="/pages/ogPortfolio/" target="__blank" class="btn btn-outline-light">Website</a>
+              <p class="card-text">Static, responsive, portfolio. Made in my early days of web development, using flex box for layout, and some
+                simple css. No transitions!</p>
+              <div class="container d-flex">
+                <a href="/pages/original-portfolio/index.html" target="__blank" class="btn btn-outline-light">Website link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/yourspace.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">YourSpace</h5>
               <p class="card-text">A faux social media site built using bootstrap 4. Includes smooth scrolling, a modal, and font-awesome icons.</p>
-              <a href="./pages/yourspace/" target="__blank" class="btn btn-outline-light">Website</a>
+              <div class="container d-flex">
+                <a href="./pages/yourspace/" target="__blank" class="btn btn-outline-light">Website link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card card-test">
-            <img class="card-img-top" src="./work_images/photowall.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./work_images/movieapp.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title text-center">PhotoWall App</h5>
-              <p class="card-text">Using Firebase users can upload images and even comment on them! Using the power of React, React-Router, and
-                Redux.
+              <h5 class="card-title text-center">React Movie App</h5>
+              <p class="card-text">An ongoing project where im using the MovieDB API to fetch for movies and render them to the user via React,
+                redux, and styled components.
               </p>
-              <a href="#" target="__blank" class="btn btn-outline-light">Heroku link</a>
+              <div class="container d-flex">
+                <a href="https://github.com/spartanhero93/React-movie-app" target="__blank" class="btn btn-outline-light">Github link</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+      </div>
+
+      <div class="row second-row">
+        <div class="col-lg-4">
           <div class="card card-test">
             <img class="card-img-top" src="./work_images/quotemachine.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">Quote Machine App</h5>
               <p class="card-text">One of my first apps that uses Node for the backend to run an express server and serve quotes to the client
-                on the push of a click.</p>
-              <a href="#" target="__blank" class="btn btn-outline-light">Heroku link</a>
+                on the push of a click.
+              </p>
+              <div class="container d-flex">
+                <a href="https://github.com/spartanhero93/quote-machine-react-andVanilla" target="__blank" class="btn btn-outline-light">Github link</a>
+              </div>
             </div>
           </div>
         </div>
@@ -176,7 +184,54 @@
     </div>
   </section>
 
-  <section id="test">
+
+  <!-- ABOUT SECTION -->
+  <section id="about-head-section">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">
+            About
+          </h1>
+          <p class="lead">Links to websites about me and my web development career.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about-section">
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-md-3 borders text-center">
+          <div class="">
+            <i class="fab fa-github fa-4x "></i>
+            <h4 class="about-links">
+              <a class="btn btn-outline-light" href="#">Github Account</a>
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-3 borders text-center">
+          <div class="about-cards">
+            <i class="fab fa-linkedin fa-4x "></i>
+            <h4 class="about-links">
+              <a class="btn btn-outline-light" href="#">LinkedIn Account</a>
+            </h4>
+          </div>
+        </div>
+
+        <div class="col-md-3 borders text-center">
+          <div class="about-cards">
+            <i class="fab fa-github fa-4x "></i>
+            <h4 class="about-links">
+              <a class="btn btn-outline-light" href="#">Github Account</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="test" style="height: 40rem">
 
   </section>
 

@@ -8,13 +8,19 @@ body {
 
 .navbar {
   border-bottom: #4EB1BA 3px solid;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 a:hover {
   color: #4EB1BA !important; 
 }
+
+.colored-title {
+  color: #4EB1BA;
+}
 #astronaut {
-  height: 3rem;
+  padding: 0;
+  margin: 0;
+  height: 2.2rem;
 }
 
 #home-section {
@@ -32,12 +38,25 @@ a:hover {
   min-height: 700px;
   background: rgba(0, 0, 0, 0.7)
 }
-
 #home-section .home-inner {
   margin-top: 13rem;
 }
-#home-section .my-title {
-  color: #4EB1BA;
+
+/* ADDED A STYLE TO ALL CARDS  */
+.d-flex {
+  justify-content: space-between;
+}
+.d-flex a {
+  display: block !important;
+}
+.card {
+  margin-top: 3rem;
+}
+/*  **************   */
+
+/* WORK SECTIONS */
+#work-head-section {
+  
 }
 #work-section .card {
   opacity: 0;
@@ -45,7 +64,25 @@ a:hover {
 #work-section .card-body{
   background-color: #222930;
 }
-#test {
-  height: 400rem;
-  background: black;
+
+
+/* ABOUT SECTIONS */
+#about-head-section {
+  background: #4EB1BA;
+  color: #E9E9E9;
+}
+
+#about-section {
+  background: #222930;
+  color: #4EB1BA;
+}
+
+
+/* ICONS STYLING */
+.fab {
+  padding: 2rem 0;
+} 
+.borders{
+  border: 2px solid white;
+  margin: 1rem;
 }
