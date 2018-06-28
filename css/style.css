@@ -8,15 +8,20 @@ body {
 
 .navbar {
   border-bottom: #4EB1BA 3px solid;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 a:hover {
   color: #4EB1BA !important; 
 }
 
+/* SPECIAL CLASSES */
 .colored-title {
   color: #4EB1BA;
 }
+.hide {
+  opacity: 0;
+}
+/* --------------- */
 #astronaut {
   padding: 0;
   margin: 0;
@@ -46,21 +51,12 @@ a:hover {
 .d-flex {
   justify-content: space-between;
 }
-.d-flex a {
-  display: block !important;
-}
 .card {
   margin-top: 3rem;
 }
 /*  **************   */
 
 /* WORK SECTIONS */
-#work-head-section {
-  
-}
-#work-section .card {
-  opacity: 0;
-}
 #work-section .card-body{
   background-color: #222930;
 }
@@ -79,10 +75,10 @@ a:hover {
 
 
 /* ICONS STYLING */
-.fab {
+.fab, .fas {
   padding: 2rem 0;
 } 
-.borders{
+.account-cards{
   border: 2px solid white;
   margin: 1rem;
 }
