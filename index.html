@@ -27,15 +27,16 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id='navbarCollapse'>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a data-scroll href="#home-section" class="nav-link mx-2">Home</a>
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item ">
+            <a data-scroll href="#home-section" class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" data-toggle="collapse"
+              data-target=".navbar-collapse.show">Home</a>
           </li>
           <li class="nav-item">
-            <a data-scroll href="#work-head-section" class="nav-link mx-2">Work</a>
+            <a data-scroll href="#work-head-section" class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">Work</a>
           </li>
           <li class="nav-item">
-            <a data-scroll href="#about-head-section" class="nav-link mx-2">About</a>
+            <a data-scroll href="#about-head-section" class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
           </li>
         </ul>
       </div>
@@ -85,6 +86,17 @@
             <div class="card-body">
               <h5 class="card-title text-center">Bacon Ipsum</h5>
               <p class="card-text">React app that consumes the Bacon Ipsum API. Lets you receive the payload in HTML JSON or regular text format.</p>
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons">
+                  <img src="./images/react-logo.svg" class="custom-icons animate-icons">
+                  <p>React</p>
+                </div>
+              </div>
+
               <div class="container d-flex">
                 <a href="https://bacon-text-ipsum.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
                 <a href="https://github.com/spartanhero93/React-Text-Generator" target="__blank" class="btn btn-outline-light">Github link</a>
@@ -98,6 +110,21 @@
             <div class="card-body">
               <h5 class="card-title text-center">PixaBay App</h5>
               <p class="card-text">Using the power of React you can search the PixaBay API and decide how many pictures you want, in real-time!</p>
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons grow">
+                  <img src="./images/react-logo.svg" class=" animate-icons">
+                  <p>React</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/material-ui-logo.svg" class="custom-icons animate-icons">
+                  <p>Material-Ui</p>
+                </div>
+              </div>
+
               <div class="container d-flex">
                 <a href="https://pixabay-app-react.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
                 <a href="https://github.com/spartanhero93/pixabay-react-app" target="__blank" class="btn btn-outline-light">Github link</a>
@@ -105,6 +132,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div class="card work-cards">
             <img class="card-img-top" src="./work_images/photowall.jpg" alt="Card image cap">
@@ -113,6 +141,26 @@
               <p class="card-text">Using Firebase users can upload images and even comment on them! Using the power of React, React-Router, and
                 Redux.
               </p>
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons grow">
+                  <img src="./images/react-logo.svg" class=" animate-icons">
+                  <p>React</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/redux-logo.svg" class="custom-icons animate-icons">
+                  <p>Redux</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/firebase-logo.svg" class="custom-icons animate-icons">
+                  <p>Firebase</p>
+                </div>
+
+              </div>
+
               <div class="container d-flex">
                 <a href="https://photo-wall-app.herokuapp.com/" target="__blank" class="btn btn-outline-light">Heroku link</a>
                 <a href="https://github.com/spartanhero93/React-Photowall" target="__blank" class="btn btn-outline-light">Github link</a>
@@ -120,8 +168,9 @@
             </div>
           </div>
         </div>
-
       </div>
+
+
 
       <div class="row second-row">
         <div class="col-lg-4">
@@ -131,33 +180,96 @@
               <h5 class="card-title text-center ">First Portfolio</h5>
               <p class="card-text">Static, responsive, portfolio. Made in my early days of web development, using flex box for layout, and some
                 simple css. No transitions!</p>
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons">
+                  <img src="./images/HTML5_logo.svg" class="custom-icons animate-icons">
+                  <p>HTML5</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/CSS3_logo.svg" class="custom-icons animate-icons">
+                  <p>CSS3</p>
+                </div>
+              </div>
+
               <div class="container d-flex">
                 <a href="/pages/original-portfolio/index.html" target="__blank" class="btn btn-outline-light">Website link</a>
+                <a href="https://github.com/spartanhero93/Current-Portfolio" target="__blank" class="btn btn-outline-light">Github link</a>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div class="card work-cards">
             <img class="card-img-top" src="./work_images/yourspace.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">YourSpace</h5>
-              <p class="card-text">A faux social media site built using bootstrap 4. Includes smooth scrolling, a modal, and font-awesome icons.</p>
-              <div class="container d-flex">
+              <p class="card-text">A faux social media site built with bootstrap 4, and some custom styling. Includes smooth scrolling, a modal,
+                and font-awesome icons.</p>
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons">
+                  <img src="./images/HTML5_logo.svg" class="custom-icons animate-icons">
+                  <p>HTML5</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/CSS3_logo.svg" class="custom-icons animate-icons">
+                  <p>CSS3</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/bootstrap-4.svg" class="custom-icons animate-icons">
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+
+              <div class="container d-flex ">
                 <a href="./pages/yourspace/" target="__blank" class="btn btn-outline-light">Website link</a>
+                <a href="https://github.com/spartanhero93/bootstrap4___social-media" target="__blank" class="btn btn-outline-light">Github link</a>
               </div>
             </div>
           </div>
         </div>
+        <!--  -->
         <div class="col-lg-4">
           <div class="card work-cards">
             <img class="card-img-top" src="./work_images/movieapp.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title text-center">React Movie App</h5>
-              <p class="card-text">An ongoing project where im using the MovieDB API to fetch for movies and render them to the user via React,
-                redux, and styled components.
+              <p class="card-text">An ongoing project using the MovieDB API to fetch for movies and render them to the user via React, redux,
+                and styled components.
               </p>
-              <div class="container d-flex">
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center flex-wrap">
+                <div class="custom-icons grow">
+                  <img src="./images/react-logo.svg" class=" animate-icons">
+                  <p>React</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/redux-logo.svg" class="custom-icons animate-icons">
+                  <p>Redux</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="https://www.styled-components.com/static/logo.png" class="custom-icons animate-icons">
+                  <p>Styled</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/sass-logo.svg" class="custom-icons animate-icons">
+                  <p>Sass</p>
+                </div>
+
+              </div>
+
+              <div class="container d-flex justify-content-center">
                 <a href="https://github.com/spartanhero93/React-movie-app" target="__blank" class="btn btn-outline-light">Github link</a>
               </div>
             </div>
@@ -174,7 +286,22 @@
               <p class="card-text">One of my first apps that uses Node for the backend to run an express server and serve quotes to the client
                 on the push of a click.
               </p>
-              <div class="container d-flex">
+
+              <p class="lead text-center">
+                <span class="colored-title">Technologies used</span>
+              </p>
+              <div class="container text-center d-flex justify-content-center">
+                <div class="custom-icons">
+                  <img src="./images/Node.js_logo.svg" class="custom-icons animate-icons">
+                  <p>NODE</p>
+                </div>
+                <div class="custom-icons">
+                  <img src="./images/mongodb.svg" class="custom-icons animate-icons">
+                  <p>MongoDB</p>
+                </div>
+              </div>
+
+              <div class="container d-flex justify-content-center">
                 <a href="https://github.com/spartanhero93/quote-machine-react-andVanilla" target="__blank" class="btn btn-outline-light">Github link</a>
               </div>
             </div>
@@ -193,17 +320,47 @@
           <h1 class="display-4">
             About
           </h1>
-          <p class="lead">I am currently freelancing, but hope to find a wonderful company and team of people who can help me along in my
-            career as a web developer.
+          <p class="lead">These are the technologies I've been able to get my hands on, I am currently focusing my skills in Front-End development.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about-section" class="my-5">
+  <!-- <section id="about-section" class="my-5">
     <div class="container">
 
+      <div class="card">
+        <i class="fab fa-react fa-2x animate-icons"></i>
+        <p>
+          React
+        </p>
+      </div>
+
+
+
+    </div>
+  </section> -->
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-head-section">
+    <div class="container my-4">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">
+            Contact
+          </h1>
+          <p class="lead">You can find me in any of the below websites, or just hit me up with an email.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact-section" class="my-5">
+    <div class="container">
       <div class="row d-flex justify-content-around">
         <div class="col-md-3 account-cards text-center">
           <div class="">
@@ -260,9 +417,16 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
+
+
+
+  <!-- <div>Icons made by
+    <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </div> -->
 
   <footer id="footer">
     <div class="footer-copyright text-center py-3">
@@ -270,11 +434,6 @@
     </div>
   </footer>
 
-  <!-- <div>Icons made by
-    <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
-    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
-    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-  </div> -->
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
   <script>
 
