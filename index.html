@@ -9,10 +9,10 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
 </head>
 
 <body>
@@ -54,7 +54,7 @@
           </h1>
           <br>
           <br>
-          <p>Developing websites in Charlotte, N.C</p>
+          <p class="animated fadeIn">Developing websites in Charlotte, N.C</p>
         </div>
       </div>
     </div>
@@ -222,6 +222,7 @@
           </div>
         </div>
 
+
         <div class="col-md-3 account-cards text-center">
           <div class="about-cards">
             <i class="fas fa-envelope fa-4x "></i>
@@ -237,7 +238,7 @@
           <div class="">
             <i class="fab fa-free-code-camp fa-4x "></i>
             <h4 class="about-links">
-              <a class="btn btn-outline-light" href="https://www.freecodecamp.org/spartanhero93" target="__blank">freecodecamp Account</a>
+              <a class="btn btn-outline-light" href="https://www.freecodecamp.org/spartanhero93" target="__blank">FreeCodeCamp</a>
             </h4>
           </div>
         </div>
@@ -254,7 +255,7 @@
           <div class="about-cards">
             <i class="fas fa-code fa-4x "></i>
             <h4 class="about-links">
-              <a class="btn btn-outline-light" href="https://teamtreehouse.com/luislopez14" target="__blank">TreeHouse Account</a>
+              <a class="btn btn-outline-light" href="https://teamtreehouse.com/luislopez14" target="__blank">TeamTreeHouse</a>
             </h4>
           </div>
         </div>
@@ -292,7 +293,7 @@
 
       //<=== Hide social Account links then add animation to them ===>//
       // ONLY IF WINDOW IS LARGER THAN MOBILE //
-      if (window.innerWidth > 995) {
+      if (window.innerWidth > 1024) {
         accountCards.forEach(card => card.classList.add('hide'))
         let trigger = 2100
         window.pageYOffset > trigger ?
@@ -303,12 +304,12 @@
       }
     }
   </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-    crossorigin="anonymous "></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-    crossorigin="anonymous "></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-    crossorigin="anonymous "></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
