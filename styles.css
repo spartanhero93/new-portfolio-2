@@ -29,7 +29,7 @@ a:hover {
 }
 
 #home-section {
-  background: no-repeat url(/images/nonMac.jpeg);
+  background: no-repeat url("images/BG-imgs//nonMac.jpeg");
   background-position:top center;
   background-size: cover;
   min-height: 700px;
@@ -57,6 +57,7 @@ a:hover {
 /*  **************   */
 
 /* WORK SECTIONS */
+
 #work-section .card-body{
   background-color: #222930;
 }
