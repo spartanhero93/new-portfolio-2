@@ -29,7 +29,7 @@ a:hover {
 }
 
 #home-section {
-  background: no-repeat url("images/BG-imgs//nonMac.jpg");
+  background: no-repeat url("images/nonMac.jpg");
   background-position:top center;
   background-size: cover;
   min-height: 700px;
